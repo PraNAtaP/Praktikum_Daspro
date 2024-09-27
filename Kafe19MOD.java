@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Kafe19 {
+public class Kafe19MOD {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -41,6 +41,9 @@ public class Kafe19 {
                 break;
             case 'L':
                 break;
+            default:
+                System.out.println("SENG GENAH AE MAS GAONOK CUP E GAONOK");
+                return;
 
             
         }
@@ -51,3 +54,4 @@ public class Kafe19 {
         System.out.println("Nominal Bayar: " + nominalBayar);
     }
 }
+

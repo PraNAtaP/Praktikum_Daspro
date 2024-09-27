@@ -8,9 +8,9 @@ public class PemilihanBilangan19 {
         int angka = sc.nextInt();
 
         if (angka % 2 == 0) {
-            System.out.println("Angka" + angka + "Adalah bilangan genap");
+            System.out.println("Angka " + angka + " Adalah bilangan GENAP");
         } else {
-            System.out.println("Angka" + angka + "Adalah bilangan ganjil");
+            System.out.println("Angka " + angka + " Adalah bilangan GANJIL");
 
         }
     }
